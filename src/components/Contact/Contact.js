@@ -20,7 +20,8 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="container">
+            <div className="container" id = "contact">
+                <h1 className = "text-center">Contact</h1>
                 <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">

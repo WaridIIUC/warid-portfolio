@@ -15,7 +15,7 @@ const NavbarTop = () => {
                         <Nav.Link href="/resume" className = "nav-font">Resume</Nav.Link>
                         <Link smooth to = "/home#projects" className = "nav-font  mt-2">Project</Link>
                         <Link smooth to = "/home#blogs" className = "nav-font  mt-2">Blogs</Link>     
-                        <Nav.Link href="#link" className = "nav-font">Contact</Nav.Link>      
+                        <Link smooth to = "/home#contact" className = "nav-font  mt-2">Contact</Link>      
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

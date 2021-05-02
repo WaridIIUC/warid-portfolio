@@ -9,10 +9,9 @@ const ProjectTwo = () => {
           <img src={khonik} alt="" />
         </div>
         <div className="col-md-6 project-one-card-info">
-          <h3 class="project-card__title mt-5">ক্ষনিক – Photography Partner </h3>
+          <h3 class="project-card__title mt-5">Fresh Grocery</h3>
           <p class="project-card__description">
-            A dynamic Photography Booking WebsiteA dynamic Photography Booking
-            Website.
+          A online grocery store.
           </p>
           <p class="project-card__stack">Used Technologies:</p>
           <ul class="tags">
