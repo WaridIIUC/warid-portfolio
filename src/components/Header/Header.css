@@ -39,3 +39,17 @@
 .row{
     margin: 0px !important;
 }
+
+@media only screen and (max-width: 768px){
+    
+}
+
+@media only screen and (max-width: 480px){
+    .info-main{
+        margin: 30px auto;
+    }
+}
+
+
+
+

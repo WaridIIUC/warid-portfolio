@@ -20,7 +20,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="container" id = "contact">
+            <div className="container mb-4" id = "contact">
                 <h1 className = "text-center">Contact</h1>
                 <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
@@ -41,6 +41,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </form>
+                <p className = "text-center m-4">All Rights Reserved. Warid Bin Azad. 2021</p>
             </div>
         </div>
     );
