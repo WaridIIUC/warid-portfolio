@@ -1,0 +1,11 @@
+.nav-font{
+    color: white !important;
+    font-size: large;
+    margin-left: 40px;
+}
+
+.nav-font:hover{
+    font-size: larger;
+    color:chartreuse !important;
+    text-decoration: none;
+}

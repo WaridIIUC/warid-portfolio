@@ -1,0 +1,67 @@
+/* React Projects */
+/* projectOne */
+.project-one-image{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.project-one-image img{
+    width: 100%;
+}
+.project-one-card-info{
+    border: 1px solid #f1f1f1;
+    background-color: rgb(248, 240, 197);
+    
+}
+.project-one-card-info .project-card__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Roboto Mono,monospace;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.project-one-card-info .project-card__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+.project-one-card-info .project-card__stack {
+    font-family: Roboto Mono,monospace;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+ul.tags{
+    padding: 0;
+}
+.tags li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.14);
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.project-one-card-info .project-card__link {
+    
+    font-family: Roboto Mono,monospace;
+    font-size: 14px;
+    line-height: 20px;
+    float: right;
+}
+
+
+/* material ui css custom */
+.MuiAppBar-colorDefault {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fff !important;
+}
+.MuiPaper-elevation4 {
+    box-shadow: none !important;
+}
+/* ==================================== */

@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom"
 import Home from './components/Home/Home';
+import Resume from './components/Resume/Resume'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/resume">
+            <Resume></Resume>
           </Route>
         </Switch>
     </Router>

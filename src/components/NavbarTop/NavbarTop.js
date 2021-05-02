@@ -1,20 +1,21 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import {HashLink as Link } from 'react-router-hash-link';
+import './NavbarTop.css'
 
 const NavbarTop = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar  expand="lg">
+                <Navbar.Brand href="#home">Warid</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Resume</Nav.Link>
-                        <Nav.Link href="#link">Projects</Nav.Link>      
-                        <Nav.Link href="#link">Blogs</Nav.Link>      
-                        <Nav.Link href="#link">About Me</Nav.Link>      
+                    <Nav className="ml-5 mt-3">
+                        <Nav.Link href="/home" className = "nav-font">Home</Nav.Link>
+                        <Nav.Link href="/resume" className = "nav-font">Resume</Nav.Link>
+                        <Link smooth to = "/home#projects" className = "nav-font  mt-2">Project</Link>
+                        <Link smooth to = "/home#blogs" className = "nav-font  mt-2">Blogs</Link>     
+                        <Nav.Link href="#link" className = "nav-font">Contact</Nav.Link>      
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

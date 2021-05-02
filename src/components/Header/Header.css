@@ -1,0 +1,41 @@
+.header-main{
+    background: linear-gradient(
+        54deg
+        ,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.info-main{
+    margin: auto;
+}
+
+.header-main img{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 27px rgb(96 96 96 / 34%);
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-top: 10px;
+    position: relative;
+    top: 40px;
+
+}
+
+.imp-links-single{
+    font-size: larger;
+    color: white !important;
+}
+
+.imp-links-single:hover{
+    color: chartreuse !important;
+}
+
+.row{
+    margin: 0px !important;
+}
