@@ -43,11 +43,10 @@ const Resume = () => {
             </p>
           </div>
           <div class="resume-list__block">
-            <p class="resume-list__block-title">Lorem Ipsum School</p>
-            <p class="resume-list__block-date">2003 - 2006</p>
+            <p class="resume-list__block-title">Nasirabad Govt. High School</p>
+            <p class="resume-list__block-date">2007 - 2013</p>
             <p>
-              Student, Lorem ipsum dolor sit amet, consecte tur adipisicing
-              elit, sed do eiusmod tempor incididunt ut
+              Science
             </p>
           </div>
         </div>
@@ -56,7 +55,7 @@ const Resume = () => {
         {/* work */}
       <div class="row">
         <div class="col-md-10 section__resume resume-list">
-          <h3 class="resume-list_title">Web Development Skills</h3>
+          <h3 class="resume-list_title resume-font-size">Web Development Skills</h3>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
             Competence{" "}
@@ -94,7 +93,7 @@ const Resume = () => {
       {/* working experiance */}
       <div class="row">
         <div class="col-md-10 section__resume resume-list">
-          <h3 class="resume-list_title">Working Experience</h3>
+          <h3 class="resume-list_title resume-font-size">Working Experience</h3>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
             Asp.net, MVC (2019 – Present){" "}
@@ -124,7 +123,7 @@ const Resume = () => {
       {/* programming skills */}
       <div class="row">
         <div class="col-md-10 section__resume resume-list">
-          <h3 class="resume-list_title">Programming Skill</h3>
+          <h3 class="resume-list_title resume-font-size">Programming Skill</h3>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
             Solved a good number of  problems(300+) in different  online judges like Uva, URI,  Hacker rank etc.

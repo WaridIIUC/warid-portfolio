@@ -37,7 +37,7 @@ const Header = () => {
                         <a href = "https://github.com/WaridIIUC" target = "_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="imp-links-single"/></a>
                         <a href = "https://www.facebook.com/warid13/" target = "_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} className="imp-links-single"/></a>
                         <a href = "https://www.linkedin.com/in/warid-bin-azad-83" target = "_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className="imp-links-single"/></a>
-                        <a href = "https://drive.google.com/uc?export=download&id=1685kCV85kiKF20FBf9nttHctyaLBtTye" target = "_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} className="imp-links-single"/></a>
+                        <a href = "https://drive.google.com/uc?export=download&id=18AoEHuw2J6Ipw3zQl7RMrU-HMN1fOvig" target = "_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} className="imp-links-single"/></a>
                     </div>
                     
 
